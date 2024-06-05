@@ -3,7 +3,10 @@ import { useState } from 'react'
 import './App.css'
 import { Button, TextField } from '@mui/material'
 import InputAdornment from '@mui/material/InputAdornment';
-
+import Underweight from '../src/assets/Underweight.gif'
+import Healthy from '../src/assets/Healthy.gif'
+import overweight from '../src/assets/overweight.gif'
+import mindyexercise from '../src/assets/mindyexercise.gif'
 
 function App() {
   const[weight,setWeight]=useState("")
@@ -71,7 +74,7 @@ function App() {
       imgSrc='../src/assets/overweight.gif';
     }
     else{
-      imgSrc='../src/assets/mindy-exercise.gif';
+      imgSrc='../src/assets/mindyexercise.gif';
     }
   }
   

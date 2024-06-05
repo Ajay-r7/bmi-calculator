@@ -1,0 +1,10 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/7/7d/Blue_mountains_animation_by_grayamaroq-d9vbn8y.gif/revision/latest?cb=20160721075412);
+  background-size: contain;
+}

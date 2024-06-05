@@ -65,16 +65,16 @@ function App() {
     }
     else{
       if(bmi<18.5){
-      imgSrc='../src/assets/Underweight.gif';
+      imgSrc=Underweight;
     }
     else if(bmi>=18.5 && bmi<=24.9){
-      imgSrc='../src/assets/Healthy.gif';
+      imgSrc=Healthy;
     }
     else if(bmi >= 25 && bmi<=29.9){
-      imgSrc='../src/assets/overweight.gif';
+      imgSrc=overweight;
     }
     else{
-      imgSrc='../src/assets/mindyexercise.gif';
+      imgSrc=mindyexercise;
     }
   }
   
